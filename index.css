@@ -56,7 +56,7 @@ h3{
     font-weight:900;
 }
 
-p{
+.subtext{
     font-size:18px;
     color:#E5E7EB;
 }
@@ -109,4 +109,24 @@ button{
 
 .illustration{
     border: 3px solid #3882F6;
+}
+
+.quote{
+    background-color:#E5E7EB;
+    color:#1F2937;
+    font-size:36px;
+    font-style:italic;
+    display:flex;
+}
+
+.cite{
+    align-self:end;
+    margin:0;
+}
+
+.quote-cite{
+    display:flex;
+    flex-flow:column;
+    width:50%;
+    margin:auto;
 }
